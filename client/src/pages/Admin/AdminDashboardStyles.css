@@ -1,0 +1,39 @@
+/* AdminDashboardStyles.css */
+
+/* Container for the entire Admin Dashboard page */
+.admin-dashboard-container {
+  margin: 20px;
+}
+.cont {
+  margin-bottom: 5rem;
+}
+
+/* Styling for the Admin Information card */
+.admin-info-card {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Title for the Admin Information section */
+.admin-info-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Styling for each item in the Admin Information */
+.admin-info-item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Label for the Admin Information items */
+.admin-info-label {
+  font-weight: bold;
+}
+
+/* Styling for the Admin Menu */
+/* (Use the existing AdminMenu component styles or add your specific styles here) */

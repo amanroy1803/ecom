@@ -1,0 +1,53 @@
+/* SearchInput.css */
+.search-form {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure the border-radius is applied */
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  outline: none;
+  background: transparent; /* Remove the background color to show the wrapper's background */
+}
+
+.search-input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Apply box shadow on focus */
+}
+
+.search-btn {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 8px 20px;
+  margin-left: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+  box-shadow: none; /* Remove default box shadow to apply custom shadow */
+}
+
+.search-btn:hover {
+  background-color: #0194a8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Apply box shadow on hover */
+}
+
+/* Adjust the icon position inside the button */
+.search-btn svg {
+  vertical-align: middle;
+}

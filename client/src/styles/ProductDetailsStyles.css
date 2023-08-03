@@ -1,0 +1,129 @@
+/* ProductDetailsStyles.css */
+
+/* Global styles for the layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Product image styles */
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Product details section */
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-category {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.add-to-cart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+/* Similar products section */
+.similar-products {
+  margin-top: 30px;
+}
+
+.similar-products h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 48%;
+  max-width: 48%;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.more-details-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.more-details-button:hover {
+  background-color: #128293;
+}

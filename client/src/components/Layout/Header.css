@@ -1,0 +1,82 @@
+/* Header.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.content-container {
+  padding-top: 70px; /* Set to the header's height + some buffer */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #000; /* Change the color of all Navbar links to black */
+  transition: color 0.3s ease;
+  padding: 15px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00bcd4;
+}
+
+.dropdown-menu {
+  background-color: #00bcd4; /* Update the background color of the dropdown menu */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #0194a8; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}
+
+/* Adjust styles for categories dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  min-width: 200px; /* Set a minimum width for the dropdown menu */
+}
+
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0194a8; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}

@@ -1,0 +1,51 @@
+/* Categories.css */
+.categories-container {
+  margin-top: 100px;
+}
+
+.category-card {
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cat-btn {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  outline: none; /* Remove the outline on focus */
+}
+
+.cat-btn:hover {
+  background-color: #0194a8;
+}
+
+.cat-footer {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.cat-footer p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
